@@ -1,0 +1,44 @@
+.toy-details-container {
+    text-align: center;
+    padding-top: 20px;
+
+    h1 {
+        background-color: #f0f0f0;
+        padding: 10px;
+    }
+    .review-container {
+        .review-add {
+            input{
+                height: 35px;
+                width: 100%;
+                padding-left: 8px;
+            }
+        }
+        margin-top: 20px;
+        h3 {
+            font-weight: 700;
+        }
+        .review-preview {
+            h4 {
+                padding: 4px;
+            }
+            border-bottom: 1px solid lightgrey;
+        }
+    }
+    .toy-info {
+        margin-right: 12px;
+    }
+    .img-container {
+        width: 220px;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .chat-icon {
+        max-width: 80px;
+    }
+    .chat-icon:hover {
+        cursor: pointer;
+    }
+}

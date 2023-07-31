@@ -1,0 +1,33 @@
+.login-container, .signup-container {
+    h3 {
+      padding-bottom: 6px;
+      border-bottom: 1px solid #b8b8b8;
+    }
+    input{
+      height: 35px;
+      padding-left: 8px;
+    }
+    // display: flex;
+    // flex-direction: row;
+  }
+  
+
+  .form-page {
+    margin: auto;
+    padding: 40px;
+    width: 400px;
+  }
+
+.signup-card, .login-card {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.signup-fields, .login-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.flex.grow-1 {
+  flex-grow: 1;
+}

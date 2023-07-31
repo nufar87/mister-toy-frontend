@@ -1,0 +1,23 @@
+.toy-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.toy-list .toy-preview .custom-card {
+  align-items: flex-start;
+}
+.toy-list .toy-preview .custom-card header {
+  font-size: 1em;
+}
+ 
+.toy-preview .toy-name {
+  font-size: 1.17rem;
+  font-family: 'Roboto-Bold';
+}
+
+.toy-preview .toy-price {
+  font-family: 'Roboto-Bold';
+}
+
+.toy-preview article {
+  align-items: center;
+}

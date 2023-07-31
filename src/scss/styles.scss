@@ -1,0 +1,17 @@
+/** BASE **/
+@import './setup/fonts.scss';
+@import './setup/util.scss';
+
+/** VIEWS **/
+@import './views/app.scss';
+@import './views/toy-app.scss';
+@import './views/toy-details.scss';
+@import './views/dashboard.scss';
+@import './views/about.scss';
+@import './views/home.scss';
+@import './views/login-page.scss';
+@import './views/user-details.scss';
+
+/** COMPONENTS **/
+@import './components/toy-list.scss';
+@import './components/custom-dropdown.scss';
