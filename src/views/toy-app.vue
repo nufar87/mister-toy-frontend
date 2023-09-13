@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import { toyService } from '../services/toy-service.js'
 import toyFilter from '../components/toy-filter.vue'
 import toyList from '../components/toy-list.vue'
 

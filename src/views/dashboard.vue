@@ -47,7 +47,6 @@ export default {
           0
         )
       })
-      // console.log('data',data)
       return {
         labels: this.labels,
         datasets: [

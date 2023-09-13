@@ -51,10 +51,6 @@ function getEmptyToy() {
   };
 }
 
-// async function addReview(toyId, review) {
-//     return await httpService.post(`${ENDPOINT}/${toyId}/review`, review);
-// }
-
 function _createToys() {
   return [
     {

@@ -91,34 +91,6 @@ export default {
       console.log('filterBy', this.filterBy)
       this.$emit('setFilter', { ...this.filterBy })
     },
-    // setFilter({target}) {
-    //   console.log('filterBy', this.filterBy)
-    //   this.$emit('setFilter', { ...this.filterBy })
-    // },
-    // setFilter({ target }) {
-    //   console.log('target',target)
-    //   console.log('filterBy', this.filterBy)
-    //   if (target.name && target.name === 'inStock') {
-    //     console.log('inside if')
-    //     this.filterBy.inStock = !this.filterBy.inStock
-    //   }
-    //   console.log(this.filterby)
-    //   this.$emit('setFilter', { ...this.filterBy })
-    // },
-    // updateLabels(value){
-    //   console.log(value);
-    //   this.filterBy.label = value
-    //   this.setFilter({target:value})
-//       console.log('value', value);
-// console.log(this.filterBy)
-//       this.filterBy.label = value ;
-//       console.log(this.filterBy.label)
-      // this.setFilter({target:{name:''}})
-  //   }
-  // },
-  // components: {
-  //   customSelect
-  // }
 }
 }
 </script>

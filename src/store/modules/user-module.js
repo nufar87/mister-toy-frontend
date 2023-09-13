@@ -20,7 +20,7 @@ export default {
         const user = await userService.login(cred);
         commit({ type: 'setUser', user });
       } catch (err) {
-        console.log(err);
+        console.error(err);
       }
     },
     async signup({ commit }, { cred }) {
@@ -28,7 +28,7 @@ export default {
         const user = await userService.signup(cred);
         commit({ type: 'setUser', user });
       } catch (err) {
-        console.log(err);
+        console.error(err);
       }
     },
     async logout({ commit }) {
@@ -36,7 +36,7 @@ export default {
         await userService.logout();
         commit({ type: 'setUser', user: null });
       } catch (err) {
-        console.log(err);
+        console.error(err);
       }
     },
   },

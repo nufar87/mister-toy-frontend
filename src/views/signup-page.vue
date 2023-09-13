@@ -16,7 +16,7 @@
     </form>
   </template>
   
-  <script>
+<script>
   export default {
     name: 'signup-page',
     data() {
@@ -38,4 +38,4 @@
       this.$refs.fullname.focus()
     }
   };
-  </script>
+</script>

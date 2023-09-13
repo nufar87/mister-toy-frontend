@@ -27,10 +27,8 @@ export default {
           type: 'setReviews',
           reviews,
         });
-        console.log('reviews', reviews);
       } catch (err) {
         console.error('cannot load reviews error:', err);
-        console.log(err);
       }
     },
 
@@ -50,11 +48,10 @@ export default {
     },
     async removeReview(context, { reviewId }) {
       try {
-        console.log(reviewId);
         await reviewService.remove(reviewId);
         context.commit({ type: 'removeReview', reviewId });
       } catch (err) {
-        console.log('reviewStore: Error in removeReview', err);
+        console.error('reviewStore: Error in removeReview', err);
         throw err;
       }
     },

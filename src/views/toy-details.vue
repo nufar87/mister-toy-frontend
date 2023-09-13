@@ -100,7 +100,6 @@ export default {
       this.getToyById(this.toy._id);
     },
     saveChatHistory(msgs) {
-      console.log('save history')
       if (!this.toy.msgs) this.toy.msgs = []
       this.toy.msgs.push(...msgs)
       this.$store.dispatch({ type: 'saveToy', toy: this.toy })
